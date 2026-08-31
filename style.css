@@ -1,0 +1,41 @@
+body {
+    background: #0d0d0d;
+    color: white;
+    font-family: "Press Start 2P", monospace;
+}
+h1 {
+    color: #ff3b30;
+}
+
+p {
+    color: #b8b8b8;
+}
+
+#window1{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#power-button{
+  margin-left: 150PX;
+  padding: 5PX 20PX;
+}
+#window2{
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+#progressContainer{
+    width: 500px;
+    height: 30px;
+    border: 3px solid white;
+}
+#progressBar{
+    width: 0%;
+    height: 100%;
+    background: red;
+}
