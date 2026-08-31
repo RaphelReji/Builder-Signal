@@ -39,3 +39,11 @@ p {
     height: 100%;
     background: red;
 }
+
+#window3{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}

@@ -5,6 +5,7 @@ const window2=document.getElementById("window2")
 
 const progressBar =document.getElementById("progressBar");
 const progressText =document.getElementById("progressText");
+const window3=document.getElementById("window3");
 
 powerbutton.addEventListener("click",function(){
     window1.style.display="none";
@@ -19,6 +20,9 @@ powerbutton.addEventListener("click",function(){
 
         if(progress>=100){
             clearInterval(loading);
+
+            window2.style.display="none";
+            window3.style.display="block";
         }
     },50);
 });
