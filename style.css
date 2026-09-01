@@ -23,8 +23,23 @@ p {
 }
 
 #power-button{
-  margin-left: 150PX;
-  padding: 5PX 20PX;
+  margin-left: 110PX;
+  margin-top: 30PX;
+  padding: 30PX;
+  border-radius: 200PX;
+  background-color: hsl(3, 81%, 55%);
+  color: black;
+  font-size: 20PX;
+  font-weight: bold;
+  border: 2PX groove white;
+  transition: 0.3s;
+}
+#power-button:active{
+   transform: translateY(5px);
+}
+#power-button:hover{
+    transform: scale(1.03);
+    color: white;
 }
 #window2{
      min-height: 100vh;
