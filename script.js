@@ -6,8 +6,11 @@ const window2=document.getElementById("window2")
 const progressBar =document.getElementById("progressBar");
 const progressText =document.getElementById("progressText");
 const window3=document.getElementById("window3");
+const bootMusic=document.getElementById("bootmusic");
 
 powerbutton.addEventListener("click",function(){
+
+    bootMusic.play();
     window1.style.display="none";
     window2.style.display="flex";
 
