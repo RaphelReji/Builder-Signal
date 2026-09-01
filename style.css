@@ -1,3 +1,20 @@
+:root{
+
+    --primary:#020617;
+    --panels:#0B1230;
+    --boders:#26365F ;
+    --brightboders:#4A5CFF;
+    --active:#8B5CF6;
+    --text:#F1F5FF ;
+    --online:#7CFF6B;
+    --redhighlights:#FF334F;
+    --mainblue:#4657E8;
+    --brightblue:#6878FF;
+    --Lightblue:#9AA8FF;
+    --Purple:#8B5CF6;
+    --Brightpurple:#A855F7;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -74,4 +91,28 @@ p {
     justify-content: center;
     align-items: center;
     display: none;
+}
+#bottom-dock{
+    width: 60%;
+    height: 100px;
+    background-color: #080F28;
+    border-radius: 25px;
+    position:fixed;
+    bottom: 20px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    padding: 10px;
+   transition: 0.3s;
+}
+#bottom-dock:hover{
+    box-shadow: 10px 10px 60px rgba(255, 255, 255, 0.26);
+}
+.dock-btns{
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid #26365F;
+    padding: 20px;
 }
