@@ -9,7 +9,7 @@ const window3=document.getElementById("window3");
 
 powerbutton.addEventListener("click",function(){
     window1.style.display="none";
-    window2.style.display="block";
+    window2.style.display="flex";
 
     let progress = 0;
     const loading=setInterval(function(){
@@ -22,7 +22,7 @@ powerbutton.addEventListener("click",function(){
             clearInterval(loading);
 
             window2.style.display="none";
-            window3.style.display="block";
+            window3.style.display="flex";
         }
     },50);
 });

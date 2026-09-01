@@ -27,8 +27,11 @@ p {
   padding: 5PX 20PX;
 }
 #window2{
-    min-width: 100vh;
+     min-height: 100vh;
+    width: 100%;
     display: flex;
+    flex-direction: column;
+    gap: 20px;
     justify-content: center;
     align-items: center;
     display: none;
@@ -46,11 +49,13 @@ p {
 
 #window3{
     min-height: 100vh;
+     width: 100%;
     background-image: url(assets/images/background.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     display: none;
