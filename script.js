@@ -7,6 +7,7 @@ const progressBar =document.getElementById("progressBar");
 const progressText =document.getElementById("progressText");
 const window3=document.getElementById("window3");
 const bootMusic=document.getElementById("bootmusic");
+const mainMusic=document.getElementById("mainmusic");
 
 powerbutton.addEventListener("click",function(){
 
@@ -26,6 +27,11 @@ powerbutton.addEventListener("click",function(){
 
             window2.style.display="none";
             window3.style.display="flex";
+
+            bootMusic.pause();
+            bootMusic.currentTime = 0;
+
+            mainMusic.play();
         }
     },50);
 });
