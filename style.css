@@ -6,6 +6,7 @@
     --brightboders:#4A5CFF;
     --active:#8B5CF6;
     --text:#F1F5FF ;
+    --paragraph:#b8b8b8;
     --online:#7CFF6B;
     --redhighlights:#FF334F;
     --mainblue:#4657E8;
@@ -20,16 +21,16 @@
     margin: 0;
 }
 body {
-    background: #0d0d0d;
+    background: var(--primary);
     color: white;
     font-family: "Press Start 2P", monospace;
 }
 h1 {
-    color: #ff3b30;
+    color:var(--text);
 }
 
 p {
-    color: #b8b8b8;
+    color:var(--paragraph);
 }
 
 #window1{
@@ -95,7 +96,7 @@ p {
 #bottom-dock{
     width: 60%;
     height: 100px;
-    background-color: #080F28;
+    background-color:var(--panels);
     border-radius: 25px;
     position:fixed;
     bottom: 20px;
@@ -115,4 +116,43 @@ p {
     font-size: 20px;
     border: 2px solid #26365F;
     padding: 20px;
+    transition: 0.3s;
+}
+.dock-btns:hover{
+    transform: translateY(-10px);
+    border-color: var(--brightboders);
+}
+
+#builder-page{
+    background-color: var(--panels);
+    position:fixed;
+    bottom:150px;
+    left: 380px;
+    border-radius: 10px;
+    align-items: center;
+    width: 60%;
+    height: 650px;
+    border: 2px solid var(--boders);
+    display: non;
+}
+#page-header{
+    width: 100%;
+    background-color: var(--primary);
+    text-align: center;
+    border-bottom: 2px solid var(--boders);
+    padding: 10px;
+}
+#main-page{
+    width: 100%;
+    height: 600px;
+    background-image: url(assets/images/background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(20px);
+    object-fit: fill;
+    border: 2px solid #020617;
+}
+#profile-image{
+    width: 50px;
 }
