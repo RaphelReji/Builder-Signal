@@ -95,8 +95,9 @@ p {
     display: none;
 }
 #bottom-dock{
-    width: fit-content;
+    width: min-content;
     height: 100px;
+    left: 10px;
     background-color:var(--panels);
     border-radius: 25px;
     position:fixed;
@@ -130,7 +131,7 @@ p {
     bottom:150px;
     left: 380px;
     align-items: center;
-    width: 60%;
+    width: 1000px;
     height: 650px;
     border: 2px solid var(--boders);
     display: non;
@@ -157,8 +158,12 @@ p {
     height: 600px;
 }
 #profile-image{
-    width: 150px;
+    width: 200px;
     background-color: var(--primary);
+    border-radius: 10px;
+    object-position: center;
+    margin-left: 100px;
+    filter:opacity(0.9);
 }
 .background{
     position: absolute;
@@ -229,6 +234,8 @@ p {
     margin-top: 50px;
     align-items: center;
     justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
 }
 #tech-stack{
     width: fit-content;
@@ -236,4 +243,6 @@ p {
     border-radius: 10px;
     border: 2px solid var(--brightboders);
     background-color: var(--card);
+    line-height: 30px;
+    margin-left: 100px;
 }
