@@ -95,7 +95,7 @@ p {
     display: none;
 }
 #bottom-dock{
-    width: min-content;
+    width: max-content;
     height: 100px;
     left: 10px;
     background-color:var(--panels);
@@ -125,7 +125,7 @@ p {
     border-color: var(--brightboders);
 }
 
-#builder-page{
+#builder-card{
     background-color: var(--panels);
     position:fixed;
     bottom:150px;
@@ -135,6 +135,7 @@ p {
     height: 650px;
     border: 2px solid var(--boders);
     display: non;
+    overflow: hidden;
 }
 #page-header{
     width: 100%;
@@ -245,4 +246,19 @@ p {
     background-color: var(--card);
     line-height: 30px;
     margin-left: 100px;
+}
+#progress-text{
+    font-size: 12px;
+    line-height: 30px;
+}
+#progress-container{
+    width: 100px;
+    height: 15px;
+    background-color: #F1F5FF;
+}
+#progress-building{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    align-items: center;
 }
