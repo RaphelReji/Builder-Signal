@@ -343,3 +343,34 @@ p {
     margin-top: 20px;
     margin-left: 80px;
 }
+#contact-card{
+     background-color: var(--panels);
+    position:fixed;
+    bottom:150px;
+    left: 380px;
+    align-items: center;
+    width: 1000px;
+    height: 650px;
+    border: 2px solid var(--boders);
+    display: non;
+}
+
+#contact-subcard{
+    display: grid;
+    grid-template-columns: 1fr .1fr;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--panels);
+    width: 300px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+#contact-icon-btn{
+    background-color: var(--mainblue);
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 2px solid var(--boders);
+    width: min-content;
+}
