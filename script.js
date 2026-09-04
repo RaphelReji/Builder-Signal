@@ -107,3 +107,10 @@ settingsBtn.addEventListener("click",function(){
 settingsCancel.addEventListener("click",function(){
     settingsCard.style.display="none";
 });
+
+
+const root=document.documentElement;
+
+document.querySelector(".day-theme").onclick=()=>{
+    root.style.setProperty("--card","white")
+}
