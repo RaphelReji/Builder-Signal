@@ -276,3 +276,53 @@ p {
     display: none;
     overflow: hidden;
 }
+
+.project-subcard{
+    width: min-content;
+    background-color: var(--card);
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid var(--brightboders);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.project-name{
+    padding: 10px;
+    text-align: center;
+}
+.project-img{
+    width: 300px;
+    border-radius: 5px;
+    border: 2px solid var(--primary);
+}
+.github-logo{
+    width: 50px;
+}
+.lang-used{
+    display: grid;
+    grid-template-columns: 60px 60px;
+    column-gap: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.dev-lang{
+    width: min-content;
+    font-size: 12px;
+    background-color: var(--boders);
+    border: 1px solid var(--brightboders);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.view-project-grid{
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    align-items: center;
+}
+.view-project-text{
+    font-size: 14px;
+    text-align: center;
+    background-color: var(--mainblue);
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid var(--panels);
+}
