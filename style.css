@@ -384,5 +384,68 @@ p {
     width: 1000px;
     height: 650px;
     border: 2px solid var(--boders);
-    display: non;
+    display: none;
+}
+#appearance{
+    background-color: var(--card);
+    padding: 15px;
+    margin-top: 20px;
+    width: max-content;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid var(--brightboders);
+}
+#theme-h1{
+    text-align: center;
+    padding: 10px;
+}
+#theme-select-grid{
+    display: grid;
+    grid-template-columns:150px 100px 100px 100px;
+    column-gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+#pixel-night-theme{
+    background-color: #020617;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+#pixel-day-theme{
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+#pixel-green-theme{
+    background-color: greenyellow;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px; 
+}
+#bg-change{
+    background-color: var(--card);
+    width: max-content;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+#bg-change-h1{
+    text-align: center;
+    padding: 10px;
+}
+.settings-bg{
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid var(--brightboders);
+}
+#bg-grid{
+    display: grid;
+    grid-template-columns:200px 200px 200px;
+    column-gap: 20px;
+    margin-top: 20px;
+    padding: 20px;
 }

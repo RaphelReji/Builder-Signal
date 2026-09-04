@@ -72,9 +72,13 @@ const projectCard=document.getElementById("project-card");
 const contactCancel=document.getElementById("contact-cancel");
 const contactCard=document.getElementById("contact-card");
 
+const settingsCancel=document.getElementById("settings-cancel");
+const settingsCard=document.getElementById("settings-card");
+
 const builderBtn=document.getElementById("builder-btn");
 const projectBtn=document.getElementById("project-btn");
 const contactBtn=document.getElementById("contact-btn");
+const settingsBtn=document.getElementById("settings-btn");
 
 builderBtn.addEventListener("click",function(){
     builderCard.style.display="block";
@@ -95,4 +99,11 @@ contactBtn.addEventListener("click",function(){
 });
 contactCancel.addEventListener("click",function(){
     contactCard.style.display="none";
+});
+
+settingsBtn.addEventListener("click",function(){
+    settingsCard.style.display="block";
+});
+settingsCancel.addEventListener("click",function(){
+    settingsCard.style.display="none";
 });
