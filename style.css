@@ -311,6 +311,13 @@ p {
     padding: 5px 10px;
     border-radius: 10px;
 }
+.lang-used-js{
+      display: grid;
+    grid-template-columns: 60px 60px 60PX;
+    column-gap: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .view-project-grid{
     display: grid;
     grid-template-columns: 1fr 0.5fr;
@@ -323,6 +330,10 @@ p {
     padding: 10px;
     border-radius: 15px;
     border: 2px solid var(--panels);
+}
+.project-about{
+    line-height: 25px;
+    font-size: 15px;
 }
 #grid-projects{
     display: grid;
