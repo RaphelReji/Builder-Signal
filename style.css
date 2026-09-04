@@ -352,7 +352,7 @@ p {
     width: 1000px;
     height: 650px;
     border: 2px solid var(--boders);
-    display: non;
+    display: none;
 }
 
 #contact-subcard{
@@ -366,6 +366,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     margin-top: 80px;
+    border: 2px solid var(--brightboders);
 }
 #contact-icon-btn{
     background-color: var(--mainblue);
@@ -373,4 +374,15 @@ p {
     border-radius: 20px;
     border: 2px solid var(--boders);
     width: min-content;
+}
+#settings-card{
+    background-color: var(--panels);
+    position:fixed;
+    bottom:150px;
+    left: 380px;
+    align-items: center;
+    width: 1000px;
+    height: 650px;
+    border: 2px solid var(--boders);
+    display: non;
 }

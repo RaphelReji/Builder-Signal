@@ -69,13 +69,16 @@ const builderCard=document.getElementById("builder-card");
 const projectCancel=document.getElementById("project-cancel");
 const projectCard=document.getElementById("project-card");
 
+const contactCancel=document.getElementById("contact-cancel");
+const contactCard=document.getElementById("contact-card");
+
 const builderBtn=document.getElementById("builder-btn");
 const projectBtn=document.getElementById("project-btn");
+const contactBtn=document.getElementById("contact-btn");
 
-builderBtn.addEventListener('click',function(){
+builderBtn.addEventListener("click",function(){
     builderCard.style.display="block";
 });
-
 builderCancel.addEventListener("click",function(){
     builderCard.style.display="none";
 });
@@ -83,8 +86,13 @@ builderCancel.addEventListener("click",function(){
 projectBtn.addEventListener("click",function(){
     projectCard.style.display="block";
 });
-
 projectCancel.addEventListener("click",function(){
     projectCard.style.display="none";
 });
 
+contactBtn.addEventListener("click",function(){
+    contactCard.style.display="block";
+});
+contactCancel.addEventListener("click",function(){
+    contactCard.style.display="none";
+});
