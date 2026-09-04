@@ -1,7 +1,7 @@
 const powerbutton=document.getElementById("power-button");
 
 const window1=document.getElementById("window1");
-const window2=document.getElementById("window2")
+const window2=document.getElementById("window2");
 
 const progressBar =document.getElementById("progressBar");
 const progressText =document.getElementById("progressText");
@@ -61,5 +61,30 @@ powerbutton.addEventListener("click",function(){
         bootText.textContent="CHARGING COMPLETE..."
     },4800);
     
+});
+
+const builderCancel=document.getElementById("builder-cancel");
+const builderCard=document.getElementById("builder-card");
+
+const projectCancel=document.getElementById("project-cancel");
+const projectCard=document.getElementById("project-card");
+
+const builderBtn=document.getElementById("builder-btn");
+const projectBtn=document.getElementById("project-btn");
+
+builderBtn.addEventListener('click',function(){
+    builderCard.style.display="block";
+});
+
+builderCancel.addEventListener("click",function(){
+    builderCard.style.display="none";
+});
+
+projectBtn.addEventListener("click",function(){
+    projectCard.style.display="block";
+});
+
+projectCancel.addEventListener("click",function(){
+    projectCard.style.display="none";
 });
 
