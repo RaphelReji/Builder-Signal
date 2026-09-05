@@ -5,7 +5,7 @@
     --boders:#26365F ;
     --brightboders:#4A5CFF;
     --active:#8B5CF6;
-    --text:#F1F5FF ;
+    --text:white;
     --paragraph:#b8b8b8;
     --online:#7CFF6B;
     --redhighlights:#FF334F;
@@ -23,7 +23,7 @@
 }
 body {
     background: var(--primary);
-    color: white;
+    color: var(--text);
     font-family: "Press Start 2P", monospace;
 }
 h1 {
@@ -360,7 +360,7 @@ p {
     grid-template-columns: 1fr .1fr;
     align-items: center;
     padding: 20px;
-    background-color: var(--panels);
+    background-color: var(--card);
     width: 300px;
     border-radius: 20px;
     margin-left: auto;
@@ -412,18 +412,21 @@ p {
     width: 60px;
     height: 60px;
     border-radius: 30px;
+    border: 1px solid var(--brightboders);
 }
 #pixel-day-theme{
     background-color: white;
     width: 60px;
     height: 60px;
     border-radius: 30px;
+    border: 1px solid var(--brightboders);
 }
 #pixel-green-theme{
     background-color: greenyellow;
     width: 60px;
     height: 60px;
     border-radius: 30px; 
+    border: 1px solid var(--brightboders);
 }
 #bg-change{
     background-color: var(--card);

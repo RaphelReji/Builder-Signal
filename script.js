@@ -113,4 +113,10 @@ const root=document.documentElement;
 
 document.querySelector(".day-theme").onclick=()=>{
     root.style.setProperty("--card","white")
+    root.style.setProperty("--text","black")
+    root.style.setProperty("--brightboders","black")
+    root.style.setProperty("--card","white")
+    root.style.setProperty("--panels","#f1ddc3")
+    root.style.setProperty("--online","red")
+    root.style.setProperty("--primary","#f3d2aa")
 }
