@@ -35,14 +35,20 @@ p {
 }
 
 #window1{
+    position:relative;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #power-button{
-  margin-left: 160PX;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin-left: 220px;
   margin-top: 30PX;
   padding: 30PX;
   border-radius: 200PX;

@@ -171,7 +171,7 @@ typeText();
 const mainNavigate=document.getElementById("main-navigate");
 setTimeout(function(){
     mainNavigate.style.display="none";
-},9000);
+},10000);
 
 const bgNight=document.getElementById("bg-night");
 bgNight.addEventListener("click",function(){
@@ -187,3 +187,16 @@ const bgCar=document.getElementById("bg-car");
 bgCar.addEventListener("click",function(){
     window3.style.backgroundImage="url(assets/images/bg4.jpg)";
 });
+
+const text2="POWER UP THE BUILDER";
+const welcomeText=document.getElementById("boot-window-text");
+
+let e=0;
+function typeText2(){
+    if(e < text2.length){
+        welcomeText.textContent+=text2[e];
+        e++;
+        setTimeout(typeText2,100);
+    }
+}
+typeText2();
