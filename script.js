@@ -169,9 +169,10 @@ function typeText(){
 typeText();
 
 const mainNavigate=document.getElementById("main-navigate");
-setTimeout(function(){
-    mainNavigate.style.display="none";
-},10000);
+window3.addEventListener("click",function(){
+ mainNavigate.style.display="none";
+})
+   
 
 const bgNight=document.getElementById("bg-night");
 bgNight.addEventListener("click",function(){

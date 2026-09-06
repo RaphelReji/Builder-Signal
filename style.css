@@ -84,7 +84,7 @@ p {
 #progressBar{
     width: 0%;
     height: 100%;
-    background: red;
+    background:var(--mainblue);
 }
 
 #window3{
@@ -157,9 +157,17 @@ p {
 .cancelbtn{
     width: 40px;
     float: right;
+    transition: 0.3s;
+}
+.cancelbtn:hover{
+    transform: scale(1.05);
 }
 #page-header-h1{
    text-align: center;
+   transition: 0.3s;
+}
+#page-header-h1:hover{
+ color: var(--brightboders);
 }
 #main-page{
     width: 100%;
@@ -172,6 +180,11 @@ p {
     object-position: center;
     margin-left: 100px;
     filter:opacity(0.9);
+    transition: 0.3s;
+}
+#profile-image:hover{
+    filter:contrast(1.6);
+    transform: scale(1.05);
 }
 .background{
     position: absolute;
@@ -202,6 +215,10 @@ p {
     border: 2px solid var(--brightboders);
     border-radius: 10px;
     padding: 10px;
+    transition: 0.3s;
+}
+#builder-name:hover{
+    transform: translatey(5px) scale(1.06);
 }
 #builder-name-name{
     color: var(--text);
@@ -229,6 +246,10 @@ p {
     margin-right: 60px;
     border-radius: 10PX;
     font-weight: 200;
+    transition: 0.3s;
+}
+#builder-status:hover{
+    transform: scale(1.05) translateY(5px);
 }
 .builder-status-name{
     font-weight: 100;
@@ -253,23 +274,11 @@ p {
     background-color: var(--card);
     line-height: 30px;
     margin-left: 100px;
+    transition: 0.3s;
 }
-#progress-text{
-    font-size: 12px;
-    line-height: 30px;
+#tech-stack:hover{
+    transform: scale(1.05) translateY(5px);
 }
-#progress-container{
-    width: 100px;
-    height: 15px;
-    background-color: #F1F5FF;
-}
-#progress-building{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 20px;
-    align-items: center;
-}
-
 #project-card{
   background-color: var(--panels);
     position:fixed;
