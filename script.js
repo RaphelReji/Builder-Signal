@@ -127,9 +127,26 @@ document.querySelector(".current-theme").onclick=()=>{
     root.style.setProperty("--panels","#0B1230")
     root.style.setProperty("--online","green")
     root.style.setProperty("--primary","#020617")
-
 }
 
+document.querySelector(".green-theme").onclick=()=>{
+    root.style.setProperty("--card","#84aa60")
+    root.style.setProperty("--brightboders","#65f306")
+    root.style.setProperty("--text","blue")
+    root.style.setProperty("--panels","#0dac77")
+    root.style.setProperty("--online","red")
+    root.style.setProperty("--primary","#0ec518")
+}
+
+document.querySelector(".reset-btn").onclick=()=>{
+    root.style.setProperty("--card","#151c2e")
+    root.style.setProperty("--brightboders","#4A5CFF")
+    root.style.setProperty("--text","white")
+    root.style.setProperty("--panels","#0B1230")
+    root.style.setProperty("--online","green")
+    root.style.setProperty("--primary","#020617")
+    window3.style.backgroundImage="url(assets/images/background.png)";
+}
 
 const muteBtn=document.getElementById("mute-btn");
 muteBtn.addEventListener("click",function(){
@@ -156,3 +173,17 @@ setTimeout(function(){
     mainNavigate.style.display="none";
 },9000);
 
+const bgNight=document.getElementById("bg-night");
+bgNight.addEventListener("click",function(){
+    window3.style.backgroundImage="url(assets/images/background.png)";
+});
+
+const bgNature=document.getElementById("bg-nature");
+bgNature.addEventListener("click",function(){
+    window3.style.backgroundImage="url(assets/images/bg3.jpg)";
+});
+
+const bgCar=document.getElementById("bg-car");
+bgCar.addEventListener("click",function(){
+    window3.style.backgroundImage="url(assets/images/bg4.jpg)";
+});

@@ -402,7 +402,7 @@ p {
 }
 #theme-select-grid{
     display: grid;
-    grid-template-columns:150px 100px 100px 100px;
+    grid-template-columns:150px 100px 100px 100px 100px;
     column-gap: 20px;
     align-items: center;
     margin-top: 20px;
@@ -501,4 +501,9 @@ p {
     text-align: center;
     font-size: 10px;
     color:var(--paragraph);
+}
+.reset-btn{
+    padding: 5px 10px;
+    background-color: var(--primary);
+    color: var(--paragraph);
 }
