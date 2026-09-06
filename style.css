@@ -349,6 +349,8 @@ p {
 .view-project-text{
     font-size: 14px;
     text-align: center;
+    color: var(--text);
+    text-decoration: none;
     background-color: var(--mainblue);
     padding: 10px;
     border-radius: 15px;
@@ -406,6 +408,8 @@ p {
     border-radius: 20px;
     border: 2px solid var(--boders);
     width: min-content;
+    text-decoration: none;
+    color: var(--text);
     transition: 0.3s;
 }
 #contact-icon-btn:hover{
