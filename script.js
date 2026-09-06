@@ -146,6 +146,8 @@ document.querySelector(".reset-btn").onclick=()=>{
     root.style.setProperty("--online","green")
     root.style.setProperty("--primary","#020617")
     window3.style.backgroundImage="url(assets/images/background.png)";
+    mainMusic.play();
+     muteBtn.textContent="MUTE";
 }
 
 const muteBtn=document.getElementById("mute-btn");
