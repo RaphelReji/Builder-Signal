@@ -181,12 +181,12 @@ bgNight.addEventListener("click",function(){
 
 const bgNature=document.getElementById("bg-nature");
 bgNature.addEventListener("click",function(){
-    window3.style.backgroundImage="url(assets/images/bg3.jpg)";
+    window3.style.backgroundImage="url(assets/images/bg3.png)";
 });
 
 const bgCar=document.getElementById("bg-car");
 bgCar.addEventListener("click",function(){
-    window3.style.backgroundImage="url(assets/images/bg4.jpg)";
+    window3.style.backgroundImage="url(assets/images/bg4.png)";
 });
 
 const text2="POWER UP THE BUILDER";
