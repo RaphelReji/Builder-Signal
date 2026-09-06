@@ -121,8 +121,29 @@ document.querySelector(".day-theme").onclick=()=>{
     root.style.setProperty("--primary","#f3d2aa")
 }
 
+
 const muteBtn=document.getElementById("mute-btn");
 muteBtn.addEventListener("click",function(){
      mainMusic.pause();
      muteBtn.textContent="MUTED";
-})
+});
+
+const text="welcome to my builder page";
+const mainWelcome=document.getElementById("main-welcome");
+
+let i=0;
+
+function typeText(){
+    if(i < text.length){
+        mainWelcome.textContent+= text[i];
+        i++;
+        setTimeout(typeText,500);
+    }
+}
+typeText();
+
+const mainNavigate=document.getElementById("main-navigate");
+setTimeout(function(){
+    mainNavigate.style.display="none";
+},9000);
+
