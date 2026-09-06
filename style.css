@@ -298,6 +298,10 @@ p {
     padding: 15px;
     border-radius: 10px;
     border: 2px solid var(--brightboders);
+    transition: 0.3s;
+}
+.project-subcard:hover{
+    transform: scale(1.04)translateY(-5px);
 }
 .project-name{
     padding: 10px;
@@ -310,6 +314,10 @@ p {
 }
 .github-logo{
     width: 50px;
+    transition: 0.3s;
+}
+.github-logo:hover{
+    transform: scale(1.09);
 }
 .lang-used{
     display: grid;
@@ -345,6 +353,11 @@ p {
     padding: 10px;
     border-radius: 15px;
     border: 2px solid var(--panels);
+    transition: 0.3s;
+}
+.view-project-text:hover{
+    transform: scale(1.02);
+    border-radius: 10px;
 }
 .project-about{
     line-height: 25px;
@@ -382,6 +395,10 @@ p {
     margin-right: auto;
     margin-top: 80px;
     border: 2px solid var(--brightboders);
+    transition: 0.3s;
+}
+#contact-subcard:hover{
+    transform: scale(1.05);
 }
 #contact-icon-btn{
     background-color: var(--mainblue);
@@ -389,6 +406,11 @@ p {
     border-radius: 20px;
     border: 2px solid var(--boders);
     width: min-content;
+    transition: 0.3s;
+}
+#contact-icon-btn:hover{
+    border-radius: 5px;
+    border: 2px solid var(--paragraph);
 }
 #settings-card{
     background-color: var(--panels);
@@ -410,6 +432,10 @@ p {
     margin-left: auto;
     margin-right: auto;
     border: 2px solid var(--brightboders);
+    transition: 0.3s;
+}
+#appearance:hover{
+    transform: scale(1.02);
 }
 #theme-h1{
     text-align: center;
@@ -450,6 +476,10 @@ p {
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
+    transition: 0.3s;
+}
+#bg-change:hover{
+    transform: scale(1.02);
 }
 #bg-change-h1{
     text-align: center;
@@ -478,6 +508,10 @@ p {
     padding: 10px 20px;
     border-radius: 20px;
     border: 2px solid white;
+    transition: 0.3s;
+}
+#pixl-credit:hover{
+  border: 2px solid var(--brightboders);
 }
 #music-mute{
     width: 350px;
@@ -491,6 +525,10 @@ p {
     margin-top: 20PX;
     border-radius: 10PX;
     border: 2PX solid var(--brightboders);
+    transition: 0.3s;
+}
+#music-mute:hover{
+    transform: scale(1.02);
 }
 #mute-btn{
     color: var(--brightblue);
