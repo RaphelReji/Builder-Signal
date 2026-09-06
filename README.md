@@ -39,7 +39,7 @@ git clone
 ```
 Repository url:
 ```bash
-git clone 
+git clone https://github.com/RaphelReji/Builder-Signal
 ```
 
 2. Open the project folder in VS Code or any code editor.
