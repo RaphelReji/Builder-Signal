@@ -64,6 +64,7 @@ A PIXEL themed website even the font is pixel themed.
  
  - image of profile:Taken from pixl game
  - icons:Taken from icon8
+ - converted real backgrounds to pixelated by pixelit website.
  - if i forgot to credit you sorry and thanks!
 
  ## License

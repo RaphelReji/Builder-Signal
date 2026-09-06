@@ -564,3 +564,39 @@ p {
     background-color: var(--primary);
     color: var(--paragraph);
 }
+#progress-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    background-color: var(--card);
+    width: min-content;
+    column-gap: 20px;
+    row-gap: 20px;
+    border-radius: 10px;
+    transform: scale(1.5);
+    transition: 0.3s;
+    border: 2px solid var(--brightboders);
+}
+#progress-card:hover{
+    transform: scale(1.55)translateY(5px);
+}
+.progress-container{
+    width: 200px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.progress-bar{
+     width: 10%;
+    height: 100%;
+    background:var(--mainblue);
+}
+#time-bar{
+    width: 40%;
+}
+#goals-bar{
+    width: 100%;
+}
+#energy-bar{
+    width: 70%;
+}
