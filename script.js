@@ -120,3 +120,9 @@ document.querySelector(".day-theme").onclick=()=>{
     root.style.setProperty("--online","red")
     root.style.setProperty("--primary","#f3d2aa")
 }
+
+const muteBtn=document.getElementById("mute-btn");
+muteBtn.addEventListener("click",function(){
+     mainMusic.pause();
+     muteBtn.textContent="MUTED";
+})

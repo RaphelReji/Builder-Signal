@@ -431,7 +431,7 @@ p {
 #bg-change{
     background-color: var(--card);
     width: max-content;
-    margin-top: 70px;
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
@@ -459,8 +459,40 @@ p {
     width: max-content;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+    margin-top:20px;
     padding: 10px 20px;
     border-radius: 20px;
     border: 2px solid white;
+}
+#music-mute{
+    width: 350px;
+    background-color: var(--card);
+    padding: 10PX;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 200PX 100PX;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20PX;
+    border-radius: 10PX;
+    border: 2PX solid var(--brightboders);
+}
+#mute-btn{
+    color: var(--brightblue);
+    background-color: var(--text);
+    width: fit-content;
+    padding: 10PX;
+    margin-right: 20px;
+    border-radius: 10PX;
+}
+#main-text{
+    position:absolute;
+    top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 30px;
+}
+#main-welcome{
+    font-size: 20px;
+    color: var(--text);
 }
