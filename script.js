@@ -115,10 +115,19 @@ document.querySelector(".day-theme").onclick=()=>{
     root.style.setProperty("--card","white")
     root.style.setProperty("--text","black")
     root.style.setProperty("--brightboders","black")
-    root.style.setProperty("--card","white")
     root.style.setProperty("--panels","#f1ddc3")
     root.style.setProperty("--online","red")
     root.style.setProperty("--primary","#f3d2aa")
+}
+
+document.querySelector(".current-theme").onclick=()=>{
+    root.style.setProperty("--card","#151c2e")
+    root.style.setProperty("--brightboders","#4A5CFF")
+    root.style.setProperty("--text","white")
+    root.style.setProperty("--panels","#0B1230")
+    root.style.setProperty("--online","green")
+    root.style.setProperty("--primary","#020617")
+
 }
 
 
