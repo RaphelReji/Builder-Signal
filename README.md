@@ -35,11 +35,11 @@ so i thinked it different and i added some idea from the concept of webos,which 
 
 1. Clone this repository:
 ```bash
-git clone
+git clone https://github.com/RaphelReji/Builder-Signal.git
 ```
 Repository url:
 ```bash
-git clone 
+git clone https://github.com/RaphelReji/Builder-Signal
 ```
 
 2. Open the project folder in VS Code or any code editor.
